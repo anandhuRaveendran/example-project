@@ -41,7 +41,7 @@ export class LoginComponent {
     'email': this.loginForm.value.email,
     'password':this.loginForm.value.password
    }
-   const url='https://development.backend.viadots.com/auth/admin/login'
+   const url=''
   this.http.post(url, data).subscribe((res:any) =>
   {
    
